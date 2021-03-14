@@ -4,10 +4,11 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import { Navbar, Nav, Container, Col } from 'react-bootstrap';
+// import { Navbar, Nav, Container, Col } from 'react-bootstrap';
 import { Menu, Image } from 'semantic-ui-react'
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import 'semantic-ui-css/semantic.min.css'
+// import "pure-react-carousel/dist/react-carousel.es.css";
 
 import github from './images/github_logo.png';
 import linkedin from './images/linkedin_logo.png';
@@ -20,16 +21,20 @@ export default function App() {
     <Router>
       <Menu>
         <Image src={logo} size='mini' href="/" />
+        
         <Menu.Item href="/">
           Home
         </Menu.Item>
+        
         <Menu.Item href="/projects">
           Projects
         </Menu.Item>
+        
         <Menu.Item href="/users">
           Some Link
         </Menu.Item>
       </Menu>
+      
       {/* <Container fluid="100%">
         <Navbar bg="dark" variant="dark">
         <Col>
