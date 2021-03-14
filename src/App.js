@@ -34,20 +34,6 @@ export default function App() {
           Some Link
         </Menu.Item>
       </Menu>
-      
-      {/* <Container fluid="100%">
-        <Navbar bg="dark" variant="dark">
-        <Col>
-          <Navbar.Brand href="/"><img src={logo} style={{width: 50, height: 50}} /></Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        </Col>
-        <Col style={{display:"flex", flexDirection:"row", justifyContent:"flex-end"}}>
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/projects">Projects</Nav.Link>
-          <Nav.Link href="/users">Another Link</Nav.Link>
-        </Col>
-        </Navbar>
-      </Container> */}
 
       <Switch>
         <Route path="/projects">
