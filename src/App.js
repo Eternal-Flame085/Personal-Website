@@ -5,7 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import { Navbar, Nav, Container, Col } from 'react-bootstrap';
-import { Menu } from from 'semantic-ui-react'
+import { Menu, Image } from 'semantic-ui-react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'semantic-ui-css/semantic.min.css'
 
@@ -18,7 +18,19 @@ import Projects from "./components/Project/Projects"
 export default function App() {
   return (
     <Router>
-      <Container fluid="100%">
+      <Menu>
+        <Image src={logo} size='mini' href="/" />
+        <Menu.Item href="/">
+          Home
+        </Menu.Item>
+        <Menu.Item href="/projects">
+          Projects
+        </Menu.Item>
+        <Menu.Item href="/users">
+          Some Link
+        </Menu.Item>
+      </Menu>
+      {/* <Container fluid="100%">
         <Navbar bg="dark" variant="dark">
         <Col>
           <Navbar.Brand href="/"><img src={logo} style={{width: 50, height: 50}} /></Navbar.Brand>
@@ -30,7 +42,7 @@ export default function App() {
           <Nav.Link href="/users">Another Link</Nav.Link>
         </Col>
         </Navbar>
-      </Container>
+      </Container> */}
 
       <Switch>
         <Route path="/projects">
