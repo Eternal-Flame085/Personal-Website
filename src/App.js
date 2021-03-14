@@ -5,7 +5,9 @@ import {
   Route
 } from "react-router-dom";
 import { Navbar, Nav, Container, Col } from 'react-bootstrap';
+import { Menu } from from 'semantic-ui-react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'semantic-ui-css/semantic.min.css'
 
 import github from './images/github_logo.png';
 import linkedin from './images/linkedin_logo.png';
