@@ -2,10 +2,9 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import github from './images/github_logo.png';
@@ -17,15 +16,19 @@ import Projects from "./components/Project/Projects"
 export default function App() {
   return (
     <Router>
-      <Navbar bg="dark" variant="dark">
-        <Container>
+      <Container fluid="100%">
+        <Navbar bg="dark" variant="dark">
+        <Col>
           <Navbar.Brand href="/"><img src={logo} style={{width: 50, height: 50}} /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        </Col>
+        <Col style={{display:"flex", flexDirection:"row", justifyContent:"flex-end"}}>
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/projects">Projects</Nav.Link>
           <Nav.Link href="/users">Another Link</Nav.Link>
-        </Container>
-      </Navbar>
+        </Col>
+        </Navbar>
+      </Container>
 
       <Switch>
         <Route path="/projects">
