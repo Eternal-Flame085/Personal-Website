@@ -4,8 +4,8 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import { Navbar, Nav, Container, Col } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Menu, Image } from 'semantic-ui-react'
+import 'semantic-ui-css/semantic.min.css'
 
 import github from './images/github_logo.png';
 import linkedin from './images/linkedin_logo.png';
@@ -16,19 +16,21 @@ import Projects from "./components/Project/Projects"
 export default function App() {
   return (
     <Router>
-      <Container fluid="100%">
-        <Navbar bg="dark" variant="dark">
-        <Col>
-          <Navbar.Brand href="/"><img src={logo} style={{width: 50, height: 50}} /></Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        </Col>
-        <Col style={{display:"flex", flexDirection:"row", justifyContent:"flex-end"}}>
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/projects">Projects</Nav.Link>
-          <Nav.Link href="/users">Another Link</Nav.Link>
-        </Col>
-        </Navbar>
-      </Container>
+      <Menu>
+        <Image src={logo} size='mini' href="/" />
+        
+        <Menu.Item href="/">
+          Home
+        </Menu.Item>
+        
+        <Menu.Item href="/projects">
+          Projects
+        </Menu.Item>
+        
+        <Menu.Item href="/users">
+          Some Link
+        </Menu.Item>
+      </Menu>
 
       <Switch>
         <Route path="/projects">
