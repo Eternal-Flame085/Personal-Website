@@ -76,19 +76,19 @@ class CarbonKnight extends Component {
                     <b>Technologies used:</b> Ruby, Rails, GraphQL, Active Record, PostgreSQL, Heroku, Travis
                     </p>
                 </Grid.Column>
-                <Grid.Column textAlign="center"> 
+                <Grid.Column style={{ position: "relative", display: "flex"}}> 
                     <Image fluid src={this.state.carbon_knight_images[this.state.carbon_knight_current]} />
-                    <Button.Group>
-                        <Button icon labelPosition='left' onClick={() => this.previousImage()}>
-                            <Icon name='left arrow' />
-                                Back
-                            </Button>
-                            
-                            <Button icon labelPosition='right' onClick={() => this.nextImage()}>
-                                Next
-                            <Icon name='right arrow' />
+                    <div style={{position: "absolute", top: 170}}>
+                        <Button active circular icon basic onClick={() => this.previousImage()}>
+                            <Icon name='arrow left' />
                         </Button>
-                    </Button.Group>
+                    </div>
+
+                    <div style={{ position: "absolute", top: 170, right: 32 }}>
+                        <Button active circular basic icon onClick={() => this.nextImage()}>
+                            <Icon name='arrow right' />
+                        </Button>
+                    </div>
                 </Grid.Column>
             </Grid>
         )

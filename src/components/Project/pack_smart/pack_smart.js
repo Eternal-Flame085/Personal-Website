@@ -4,6 +4,7 @@ import { Container, Divider, Grid, Image, Segment, Button, Icon } from 'semantic
 import landing_page from './images/landing_page.png'
 import how_it_works from './images/how_it_works.png'
 import saved_lists from './images/saved_lists.png'
+import survey from './images/survey.png'
 import github from '../../../images/github_logo.png'
 import heroku from '../../../images/heroku_logo.png'
 
@@ -16,7 +17,8 @@ class PackSmart extends Component {
                 pack_smart_images: [
                     landing_page,
                     how_it_works,
-                    saved_lists,
+                    survey,
+                    saved_lists
                 ]
             }
         }
@@ -55,17 +57,19 @@ class PackSmart extends Component {
     render() {
         return (
             <Grid columns={2} relaxed='very'>
-                <Grid.Column textAlign="center">
+                <Grid.Column style={{ position: "relative", display: "flex"}}>
                     <Image fluid src={this.state.pack_smart_images[this.state.pack_smart_current]} />
-                        <Button.Group>
-                            <Button floated icon onClick={() => this.previousImage()}>
+                        <div style={{position: "absolute", top: 170}}>
+                            <Button active circular basic icon onClick={() => this.previousImage()}>
                                 <Icon name='left arrow' />
                             </Button>
-                                
-                            <Button icon onClick={() => this.nextImage()}>
+                        </div>
+
+                        <div style={{ position: "absolute", top: 170, right: 32 }}>
+                            <Button active circular basic icon onClick={() => this.nextImage()}>
                                 <Icon name='right arrow' />
                             </Button>
-                        </Button.Group>
+                        </div>
                 </Grid.Column>
                
                 <Grid.Column>
