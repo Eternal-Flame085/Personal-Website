@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Container, Segment} from 'semantic-ui-react'
-import './Projects.css'
 
 import PackSmart from './pack_smart/pack_smart'
 import CarbonKnight from './carbon_knight/carbon_knight'
