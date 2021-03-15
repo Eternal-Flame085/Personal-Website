@@ -4,11 +4,8 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-// import { Navbar, Nav, Container, Col } from 'react-bootstrap';
 import { Menu, Image } from 'semantic-ui-react'
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import 'semantic-ui-css/semantic.min.css'
-// import "pure-react-carousel/dist/react-carousel.es.css";
 
 import github from './images/github_logo.png';
 import linkedin from './images/linkedin_logo.png';
