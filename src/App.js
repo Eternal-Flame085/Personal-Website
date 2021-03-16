@@ -8,7 +8,7 @@ import 'semantic-ui-css/semantic.min.css'
 
 import NavBar from './components/NavBar'
 import LandingPage from './components/LandingPage'
-import Projects from "./components/Project"
+import Projects from "./components/Projects"
 
 export default function App() {
   return (

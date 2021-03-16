@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Divider, Grid, Image, Segment, Button, Icon } from 'semantic-ui-react'
+import { Divider, Grid, Image, Header, Button, Icon, List } from 'semantic-ui-react'
 
 import carbon_knight from './images/carbon_knight.png'
 import home_page from './images/home_page.png'
@@ -71,11 +71,62 @@ class CarbonKnight extends Component {
                     <Divider clearing/>
 
                     <p>
-                    CarbonKnight is an application where a user is able to input their travel data and see what their unique carbon footprint is over time.
-                    <Divider hidden />
-                    <b>Technologies used:</b> Ruby, Rails, GraphQL, Active Record, PostgreSQL, Heroku, Travis
+                        CarbonKnight is an application where a user is able to input their travel data and see what their unique carbon footprint is over time.
                     </p>
+
+                    <Divider hidden />
+
+                    <Grid container>
+                        <Grid.Row>
+                            <Header as='h4'>Main technologies used:</Header>
+                        </Grid.Row>
+
+                        <Grid.Row columns={2}>
+                            <Grid.Column width='5'>
+                                <div>
+                                    <List relaxed>
+                                        <List.Item>
+                                            <Icon name='right triangle' />
+                                            Ruby On Rails
+                                        </List.Item>
+
+                                        <List.Item>
+                                            <Icon name='right triangle' />
+                                            GraphQL
+                                        </List.Item>
+
+                                        <List.Item>
+                                            <Icon name='right triangle' />
+                                            PostgreSQL
+                                        </List.Item>                                   
+                                    </List>
+                                </div>
+                            </Grid.Column>
+
+                            <Grid.Column>
+                                <div>
+                                    <List relaxed>
+                                        <List.Item>
+                                            <Icon name='right triangle' />
+                                            Active Record
+                                        </List.Item>
+
+                                        <List.Item>
+                                            <Icon name='right triangle' />
+                                            Heroku
+                                        </List.Item> 
+
+                                        <List.Item>
+                                            <Icon name='right triangle' />
+                                            TravisCI
+                                        </List.Item>                                   
+                                    </List>
+                                </div>
+                            </Grid.Column>
+                        </Grid.Row>
+                    </Grid>
                 </Grid.Column>
+                
                 <Grid.Column style={{ position: "relative", display: "flex"}}> 
                     <Image fluid src={this.state.carbon_knight_images[this.state.carbon_knight_current]} />
                     <div style={{position: "absolute", top: 170}}>
