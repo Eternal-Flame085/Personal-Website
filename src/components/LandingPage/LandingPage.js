@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Grid, Container, Image} from 'semantic-ui-react'
+import { Header, Grid, Container, Image, List} from 'semantic-ui-react'
 
 import github from '../../images/github_logo.png'
 import linkedin from '../../images/linkedin_logo.png'
@@ -18,7 +18,7 @@ class LandingPage extends Component {
                                         I have always been into video games, it was a passion that I wanted to follow.
                                         My first taste of programming dual enrollment course I attended in high school. 
                                         From there I signed up for a game developer course in college and was introduced to C++ and Java. 
-                                        I quickly found out I disliked the Art courses I needed to take along with the coding.
+                                        I quickly found out I disliked the Art courses I needed to take along side the programming languages.
                                     </p>
                                     <p>
                                         Shortly after I was introduced to Turing, From the moment I started Turing, I have enjoyed learning the 
@@ -29,7 +29,7 @@ class LandingPage extends Component {
                         </Grid.Column>
 
                         <Grid.Column width="4">
-                            <Image centered size="medium" src="https://avatars.githubusercontent.com/u/63683549?s=400&u=2a570652ac4f72944a49c64842702154c7466b5c&v=4" />
+                            <Image rounded centered size="medium" src="https://avatars.githubusercontent.com/u/63683549?s=400&u=2a570652ac4f72944a49c64842702154c7466b5c&v=4" />
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
