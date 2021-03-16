@@ -18,7 +18,7 @@ export default class NavBar extends Component {
                 <Menu secondary floated='right'>
                   <Menu.Item
                     as={Link} to="/" 
-                    name='Home'
+                    name='About'
                   />
                   
                   <Menu.Item  
