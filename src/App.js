@@ -6,9 +6,9 @@ import {
 } from "react-router-dom";
 import 'semantic-ui-css/semantic.min.css'
 
-import NavBar from './components/NavBar/NavBar'
-import LandingPage from './components/LandingPage/LandingPage'
-import Projects from "./components/Project/Projects"
+import NavBar from './components/NavBar'
+import LandingPage from './components/LandingPage'
+import Projects from "./components/Project"
 
 export default function App() {
   return (
