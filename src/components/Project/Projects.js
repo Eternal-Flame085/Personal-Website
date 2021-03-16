@@ -8,7 +8,7 @@ class Projects extends Component {
     render() {
         return (
             <fragment>
-                <Container>
+                <Container style={{ paddingTop:20 }}>
                     <Segment>
                         <PackSmart />
                     </Segment>
