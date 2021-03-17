@@ -65,7 +65,7 @@ class CarbonKnight extends Component {
                     <h1>
                         CarbonKnight
                         <Image floated="right" src={github} size='mini' href="https://github.com/Carbon-Knight" target='_blank' />
-                        <Image floated="right"src={heroku} size='mini' href="https://carbon-knight.herokuapp.com/" target='_blank' />
+                        <Image rounded floated="right" src={heroku} size='mini' href="https://carbon-knight.herokuapp.com/" target='_blank' />
                     </h1>
 
                     <Divider clearing/>

@@ -76,7 +76,7 @@ class PackSmart extends Component {
                     <h1>
                         Pack Smart
                         <Image floated="right" src={github} size='mini' href="https://github.com/Pack-Smart/pack-smart-be" target='_blank' />
-                        <Image floated="right"src={heroku} size='mini' href="https://packsmart.herokuapp.com/" target='_blank' />
+                        <Image floated="right" rounded src={heroku} size='mini' href="https://packsmart.herokuapp.com/" target='_blank' />
                     </h1>
     
                     <Divider clearing/>
