@@ -27,8 +27,8 @@ export default class NavBar extends Component {
                   />
                   
                   <Menu.Item 
-                    as={Link} to="/users"
-                    name='Users'
+                    as={Link} to="/resume"
+                    name='Resume'
                   />
 
                   <Dropdown item text="Contact">
