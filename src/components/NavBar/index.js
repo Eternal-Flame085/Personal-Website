@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Menu, Image, Container, Grid } from 'semantic-ui-react'
+import { Menu, Image, Container, Grid, Dropdown } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
 import logo from '../../images/wide_logo.png';
@@ -30,6 +30,14 @@ export default class NavBar extends Component {
                     as={Link} to="/users"
                     name='Users'
                   />
+
+                  <Dropdown item text="Contact">
+                    <Dropdown.Menu direction="left">
+                      <Dropdown.Item icon='github' text='GitHub' target='_blank' href="https://github.com/Eternal-Flame085" />
+                      <Dropdown.Item icon='linkedin' text='LinkedIn' target='_blank' href="https://www.linkedin.com/in/roberto-basulto/" />
+                      <Dropdown.Item icon='google' text='Email' target='_blank' href="mailto:roberto.basulto085@gmail.com" />
+                    </Dropdown.Menu>
+                  </Dropdown>
                 </Menu>
               </Grid.Column>
             </Grid>
