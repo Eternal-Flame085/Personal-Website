@@ -8,10 +8,10 @@ const Projects = () => {
     return (
         <fragment>
             <Container style={{ paddingTop:20 }}>
-                <Segment>
+                <Segment raised>
                     <PackSmart />
                 </Segment>
-                <Segment>
+                <Segment raised>
                     <CarbonKnight />
                 </Segment>
             </Container>
