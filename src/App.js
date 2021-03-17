@@ -4,11 +4,11 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import 'semantic-ui-css/semantic.min.css'
+import 'semantic-ui-css/semantic.min.css';
 
-import NavBar from './components/NavBar'
-import LandingPage from './components/LandingPage'
-import Projects from "./components/Projects"
+import NavBar from './components/NavBar';
+import LandingPage from './components/LandingPage';
+import Projects from "./components/Projects";
 
 export default function App() {
   return (
