@@ -5,8 +5,7 @@ const Resume = () => {
     return (
         <Embed
             defaultActive 
-            url='https://drive.google.com/file/d/13VinKVdl-NGzquZlhmRsQCdYJzHGEUFW/preview' 
-
+            url='https://drive.google.com/file/d/13VinKVdl-NGzquZlhmRsQCdYJzHGEUFW/preview'
         />
     )
 }
