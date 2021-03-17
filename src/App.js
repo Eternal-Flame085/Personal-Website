@@ -8,7 +8,8 @@ import 'semantic-ui-css/semantic.min.css';
 
 import NavBar from './components/NavBar';
 import LandingPage from './components/LandingPage';
-import Projects from "./components/Projects";
+import Projects from './components/Projects';
+import Resume from './components/Resume';
 
 export default function App() {
   return (
@@ -19,8 +20,8 @@ export default function App() {
         <Route path="/projects">
           <Projects />
         </Route>
-        <Route path="/users">
-          <Users />
+        <Route path="/resume">
+          <Resume />
         </Route>
         <Route path="/">
           <LandingPage />
@@ -28,8 +29,4 @@ export default function App() {
       </Switch>
     </Router>
   );
-}
-
-function Users() {
-  return <h2>Users</h2>;
 }
