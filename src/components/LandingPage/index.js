@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Header, Grid, Container, Image, List, Icon} from 'semantic-ui-react'
 const LandingPage = () => {
     return (
-        <Container style={{paddingTop: 100}}>
+        <Container style={{paddingTop: 100, height: '100vh'}}>
             <Grid centered stretched columns={2} divided verticalAlign='middle'>
                 <Grid.Row>
                     <Grid.Column stretched width="8">

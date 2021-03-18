@@ -1,12 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Container, Embed } from 'semantic-ui-react'
 
 const Resume = () => {
     return (
-        <Embed
-            defaultActive 
-            url='https://drive.google.com/file/d/13VinKVdl-NGzquZlhmRsQCdYJzHGEUFW/preview'
-        />
+        <Container style={{height: '100vh'}}>
+            <Embed
+                style={{height: '100vh'}}
+                defaultActive 
+                url='https://drive.google.com/file/d/13VinKVdl-NGzquZlhmRsQCdYJzHGEUFW/preview'
+            />
+        </Container>
     )
 }
 
