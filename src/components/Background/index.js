@@ -76,7 +76,7 @@ const Background = () => {
                             }
                         },
                         repulse: {
-                            distance: 70,
+                            distance: 100,
                             duration: 0.4
                         },
                     }
