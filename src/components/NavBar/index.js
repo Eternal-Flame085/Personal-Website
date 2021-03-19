@@ -2,7 +2,7 @@ import React from 'react'
 import { Menu, Image, Container, Grid, Dropdown } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 
-import logo from '../../images/wide_logo.png';
+import logo from '../../images/logo.png';
 
 const NavBar = () => {
   return (
