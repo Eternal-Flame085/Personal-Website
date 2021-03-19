@@ -106,7 +106,7 @@ const CarbonKnight = () => {
             </Grid.Column>
             
             <Grid.Column style={{ position: "relative", display: "flex"}}> 
-                <Image fluid src={images[currentImage]} />
+                <Image rounded fluid src={images[currentImage]} />
                 <div style={{position: "absolute", top: 170}}>
                     <Button active circular icon basic onClick={() => previousImage()}>
                         <Icon name='arrow left' />
