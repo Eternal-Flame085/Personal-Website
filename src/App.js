@@ -23,7 +23,7 @@ export default function App() {
           <Image fluid src={BackgroundImage}/>
         </Container>
 
-        <Container style={{ position: 'absolute'}}>
+        <Container style={{ position: 'absolute', inHeight:'100vh'}}>
           <Background />
         </Container>
 
