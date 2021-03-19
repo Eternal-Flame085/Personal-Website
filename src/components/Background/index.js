@@ -60,7 +60,7 @@ const Background = () => {
                     events: {
                         onhover: {
                             enable: true,
-                            mode: 'grab'
+                            mode: 'repulse'
                         },
                         onclick: {
                             enable: true,
@@ -72,8 +72,12 @@ const Background = () => {
                         grab: {
                             distance: 120,
                             line_linked: {
-                            opacity: 0.5504691130161662
+                            opacity: 0.6
                             }
+                        },
+                        repulse: {
+                            distance: 70,
+                            duration: 0.4
                         },
                     }
                 }
