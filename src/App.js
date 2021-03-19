@@ -4,7 +4,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import { Image } from 'semantic-ui-react';
+import { Image, Container } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 
 import Background from './components/Background';
@@ -16,15 +16,16 @@ import BackgroundImage from './images/background.jpg'
 
 export default function App() {
   return (
-    <div style={{ position: 'relative', overflow: "hidden" }}>
+    <Container fluid style={{ position: 'relative', overflow: "hidden", minHeight:'100vh' }}>
       <Router>
-        <div style={{ position: 'absolute'}}>
-          <Image fluid src={BackgroundImage} style={{zIndex: -12}}/>
-        </div>
 
-        <div style={{ position: 'absolute'}}>
+        <Container fluid style={{ position: 'absolute'}}>
+          <Image fluid src={BackgroundImage}/>
+        </Container>
+
+        <Container style={{ position: 'absolute'}}>
           <Background />
-        </div>
+        </Container>
 
 
         <NavBar />
@@ -32,14 +33,17 @@ export default function App() {
           <Route path="/projects">
             <Projects />
           </Route>
+
           <Route path="/resume">
             <Resume />
           </Route>
+
           <Route path="/">
             <LandingPage />
           </Route>
         </Switch>
+
       </Router>
-    </div>
+    </Container>
   );
 }
