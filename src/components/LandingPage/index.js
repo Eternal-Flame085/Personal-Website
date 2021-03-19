@@ -4,7 +4,7 @@ import { Header, Grid, Container, Image, List, Icon, Segment } from 'semantic-ui
 const LandingPage = () => {
     return (
         <Container style={{width:'70%', paddingTop:'5%'}}>
-            <Segment compact style={{backgroundColor:'#ffffffB3'}}>
+            <Segment compact style={{backgroundColor:'#ffffffCC'}}>
                 <Grid divided> 
                     <Grid.Row>
                         <Grid.Column width='11'>
