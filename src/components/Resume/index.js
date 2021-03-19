@@ -3,9 +3,9 @@ import { Container, Embed } from 'semantic-ui-react'
 
 const Resume = () => {
     return (
-        <Container style={{height: '100vh'}}>
+        <Container style={{ height: '100vh', width:'60%' }}>
             <Embed
-                style={{height: '100vh'}}
+                style={{ height: '95%' }}
                 defaultActive 
                 url='https://drive.google.com/file/d/13VinKVdl-NGzquZlhmRsQCdYJzHGEUFW/preview'
             />
