@@ -11,7 +11,7 @@ const Projects = () => {
                 <Segment raised>
                     <PackSmart />
                 </Segment>
-                <Segment raised>
+                <Segment raised style={{ backgroundColor:'#ffffff80' }}>
                     <CarbonKnight />
                 </Segment>
             </Container>
