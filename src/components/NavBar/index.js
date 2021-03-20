@@ -6,7 +6,7 @@ import logo from '../../images/logo.png';
 
 const NavBar = () => {
   return (
-    <Menu secondary inverted borderless attached='top'>
+    <Menu style={{ marginTop:0 }} secondary inverted borderless>
       <Menu.Item
         name='logo'
         content={
