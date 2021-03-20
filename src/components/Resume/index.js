@@ -3,7 +3,7 @@ import { Container, Embed } from 'semantic-ui-react'
 
 const Resume = () => {
     return (
-        <Container style={{ height: '100vh', width:'60%' }}>
+        <Container style={{ height: '90vh', width:'60%' }}>
             <Embed
                 style={{ height: '95%' }}
                 defaultActive 
