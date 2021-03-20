@@ -27,8 +27,8 @@ export default function App() {
           <Background />
         </Container>
 
-
         <NavBar />
+
         <Switch>
           <Route path="/projects">
             <Projects />
