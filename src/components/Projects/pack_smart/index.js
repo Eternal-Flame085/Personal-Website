@@ -60,7 +60,11 @@ const PackSmart = () => {
                 <Divider clearing/>
 
                 <p>
-                    Pack Smart is a site that helps users pack for trips by giving them suggestions on items they might need for that trip based on a small survey.
+                    Pack Smart is a helpful tool for curating perfect packing lists to ease the stress of traveling. 
+                    Just enter your trip details and packing preferences to receive a list made just for you. Once your list is created, 
+                    view items effortlessly with our intuitive, user friendly interface and tailor the list to your specific needs by deleting, 
+                    adjusting the quantity and checking off items as they are packed away. Each packing list is automatically saved to be viewed 
+                    and edited at any time! With Pack Smart, you will never forget important items or over pack again.
                 </p>
                 <Divider hidden />
 

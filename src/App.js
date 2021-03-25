@@ -14,7 +14,7 @@ import Projects from './components/Projects';
 import Resume from './components/Resume';
 import BackgroundImage from './images/background.jpg'
 
-export default function App() {
+const App = () => {
   return (
     <Container fluid style={{ position: 'relative', overflow: "hidden", minHeight:'100vh' }}>
       <Router>
@@ -47,3 +47,5 @@ export default function App() {
     </Container>
   );
 }
+
+export default App
