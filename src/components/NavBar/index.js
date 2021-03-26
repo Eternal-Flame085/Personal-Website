@@ -29,6 +29,11 @@ const NavBar = () => {
         as={Link} to="/projects"
         name='Projects'
       />
+
+      <Menu.Item 
+        as={Link} to="/experience"
+        name='Experience'
+      />
       
       <Menu.Item 
         as={Link} to="/resume"
