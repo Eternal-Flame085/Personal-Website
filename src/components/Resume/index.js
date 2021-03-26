@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Embed } from 'semantic-ui-react'
 
-import ResumePDF from './Resume.pdf'
+import ResumePDF from './RobertoBasultoResume'
 
 const Resume = () => {
     return (
