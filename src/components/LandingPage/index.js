@@ -4,13 +4,13 @@ import { Header, Grid, Container, Image, List, Icon, Segment } from 'semantic-ui
 const LandingPage = () => {
     return (
         <Container style={{
-                           width:'70%', 
-                           margin: 0, 
-                           position: 'absolute', 
-                           top:'50%', 
-                           left:'50%', 
-                           msTransform: 'translate(-50%, -50%)', 
-                           transform: 'translate(-50%, -50%)'
+            width:'70%', 
+            margin: 0, 
+            position: 'absolute', 
+            top:'50%', 
+            left:'50%', 
+            msTransform: 'translate(-50%, -50%)', 
+            transform: 'translate(-50%, -50%)'
         }}>
 
             <Segment compact style={{backgroundColor:'#ffffffCC'}}>

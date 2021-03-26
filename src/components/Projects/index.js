@@ -7,7 +7,15 @@ import CarbonKnight from './carbon_knight'
 const Projects = () => {
     return (
         <fragment>
-            <Container style={{ paddingBottom: '3%' }}>
+            <Container style={{ 
+                paddingBottom: '3%', 
+                margin: 0, 
+                position: 'absolute', 
+                top:'50%', 
+                left:'50%', 
+                msTransform: 'translate(-50%, -50%)', 
+                transform: 'translate(-50%, -50%)'
+            }}>
                 <Segment raised style={{ backgroundColor:'#ffffffCC' }}>
                     <PackSmart />
                 </Segment>
