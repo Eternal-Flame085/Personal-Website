@@ -11,6 +11,7 @@ import Background from './components/Background';
 import NavBar from './components/NavBar';
 import LandingPage from './components/LandingPage';
 import Projects from './components/Projects';
+import Experience from './components/Experience';
 import Resume from './components/Resume';
 import BackgroundImage from './images/background.jpg'
 
@@ -32,6 +33,10 @@ const App = () => {
         <Switch>
           <Route path="/projects">
             <Projects />
+          </Route>
+
+          <Route path="/experience">
+            <Experience />
           </Route>
 
           <Route path="/resume">
