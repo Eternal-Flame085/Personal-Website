@@ -73,7 +73,7 @@ const LandingPage = () => {
                             </Grid>
                         </Grid.Column>
 
-                        <Grid.Column width='5'floated='right' verticalAlign='middle'>
+                        <Grid.Column width='5' floated='right' verticalAlign='middle'>
                             <Image rounded centered src="https://avatars.githubusercontent.com/u/63683549?s=400&u=2a570652ac4f72944a49c64842702154c7466b5c&v=4" />
                         </Grid.Column>
                     </Grid.Row>
