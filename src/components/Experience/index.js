@@ -47,7 +47,12 @@ const Experience = () => {
                         <p>
                             I started working at Mi Rinconcito Mexicano when I was sixteen, and it was my first part-time job
                             that I took to help pay for college. During the four and a half years working there I learned 
-                            and experienced a wide variety of things. 
+                            and experienced a wide variety of things. I mainly worked as a busser but filled in as a waiter
+                            when it got super busy and the waiters needed more help with tables. I was able to work well 
+                            with a diverse group of people from many different backgrounds to get work done quickly and 
+                            efficiently, I improved my communication skills attending to customers, along with learning how
+                            to better manage my time and dynamically prioritize tasks. Everyone I worked with is basically 
+                            family and I wont forget my time there and all that I learned.
                         </p>
                     </Grid.Column>
                 </Grid>
