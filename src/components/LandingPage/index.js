@@ -4,7 +4,6 @@ import { Header, Grid, Container, Image, List, Icon, Segment } from 'semantic-ui
 const LandingPage = () => {
     return (
         <Container style={{
-            width:'70%', 
             margin: 0, 
             position: 'absolute', 
             top:'50%', 
