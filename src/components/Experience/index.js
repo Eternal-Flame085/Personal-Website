@@ -27,7 +27,7 @@ const Experience = () => {
                     </Grid.Column>
 
                     <Grid.Column>
-                        <Image size="large" centered src={Turing} />
+                        <Image size='medium' centered src={Turing} />
                     </Grid.Column>
                 </Grid>
             </Segment>
@@ -35,7 +35,7 @@ const Experience = () => {
             <Segment raised style={{ backgroundColor:'#ffffffCC' }}>
                 <Grid columns={2} relaxed='very'>
                     <Grid.Column verticalAlign='center'>
-                        <Image size='large' centered src={Rinconcito} />
+                        <Image style={{ width:'100%', height:300}} centered src={Rinconcito} />
                     </Grid.Column>
 
                     <Grid.Column verticalAlign='middle'>
