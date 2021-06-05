@@ -42,11 +42,12 @@ const NavBar = () => {
   const menulinks = [
     {menuTitle: "Home", pageUrl: "/"},
     {menuTitle: "Projects", pageUrl: "/projects"},
-    {menuTitle: "Experience", pageUrl: "/experience"}
+    {menuTitle: "Experience", pageUrl: "/experience"},
+    {menuTitle: "Resume", pageUrl: "/resume"},
   ]
 
   return (
-    <AppBar position="fixed" color="transparent" className={classes.root}>
+    <AppBar position="static" color="transparent" className={classes.root}>
       <Toolbar>
         <Link className={classes.logoLink} component={RouterLink} to="/">
           <img src={logo} alt="logo" className={classes.logo} />
