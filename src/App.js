@@ -10,7 +10,7 @@ import 'semantic-ui-css/semantic.min.css';
 import Background from './components/Background';
 import NavBar from './components/AppBar/AppBar';
 import LandingPage from './components/LandingPage/Home';
-import Projects from './components/Projects';
+import Projects from './components/Projects/Projects';
 import Experience from './components/Experience';
 import Resume from './components/Resume';
 import BackgroundImage from './images/background.jpg'
