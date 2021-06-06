@@ -1,13 +1,15 @@
 import React from "react";
-import Paper from "@material-ui/core/paper";
-import Chip from "@material-ui/core/Chip";
-import Typography from "@material-ui/core/Typography";
-import Divider from "@material-ui/core/Divider";
-import IconButton from "@material-ui/core/IconButton";
+import { Paper, Chip, Typography, Divider, IconButton, Toolbar, Grid } from "@material-ui/core"
+
+// import Paper from "@material-ui/core/paper";
+// import Chip from "@material-ui/core/Chip";
+// import Typography from "@material-ui/core/Typography";
+// import Divider from "@material-ui/core/Divider";
+// import IconButton from "@material-ui/core/IconButton";
+// import Toolbar from "@material-ui/core/Toolbar";
+// import Grid from "@material-ui/core/Grid";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import WebIcon from "@material-ui/icons/Web";
-import Toolbar from "@material-ui/core/Toolbar";
-import Grid from "@material-ui/core/Grid";
 import Image from 'material-ui-image';
 import Carousel from 'react-material-ui-carousel';
 
