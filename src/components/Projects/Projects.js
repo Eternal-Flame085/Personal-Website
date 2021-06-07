@@ -1,10 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import {
-          Container,
-          Grid } from '@material-ui/core'
-// import Container from "@material-ui/core/container";
-// import Grid from "@material-ui/core/grid"
+import { Container, Grid } from '@material-ui/core'
 import projects from "./ProjectData.json"
 import ProjectTemplate from "./ProjectTemplate";
 
@@ -19,7 +15,6 @@ const useStyles = makeStyles((theme) => ({
   },
   chips: {
     display: "flex",
-    // justifyContent: 'center',
     flexWrap: "wrap",
     "& > *": {
       margin: theme.spacing(0.5),
