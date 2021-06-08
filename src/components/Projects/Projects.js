@@ -9,6 +9,9 @@ const useStyles = makeStyles((theme) => ({
     width: "40%",
     height: 340,
   },
+  paper: {
+    backgroundColor:'#ffffffCC'
+  },
   projectHeader: {
     flexGrow: 1,
     marginLeft: "15px",

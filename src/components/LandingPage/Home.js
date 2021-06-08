@@ -14,8 +14,8 @@ const useStyles = makeStyles((theme) => ({
         alignItems: "center",
         minHeight: "80vh",
     },
-    paperMargin: {
-        marginTop: '6%'
+    paper: {
+        backgroundColor:'#ffffffCC'
     },
     image: {
         maxWidth: '93%',
@@ -67,7 +67,7 @@ export default function LandingPage() {
   ]
     return (
         <Container className={classes.root}>
-            <Paper variant='outlined' elevation={1}>
+            <Paper variant='outlined' elevation={1} className={classes.paper}>
                 <Grid container justify='center'>
                     <Grid item xs={8}>
                         <Typography gutterBottom variant="headline" component="h2" style={{marginTop:"15px"}} className={classes.paragraphStyle}>

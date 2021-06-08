@@ -4,7 +4,7 @@ import { Paper, Typography, Divider, Toolbar, Grid } from "@material-ui/core"
 export default function ExperienceTemplate(props) {
     return (
         <Grid item xs={12}>
-            <Paper variant="outlined">
+            <Paper variant="outlined" className={props.classes.paper}>
                 <Grid container alignItems="center">
                     <Grid item xs={5} className={props.classes.imageGridContainer}>
                             <img className={props.classes.image} src={props.experience.imageUrl} />

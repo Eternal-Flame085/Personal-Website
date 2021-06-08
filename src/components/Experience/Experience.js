@@ -13,6 +13,9 @@ const useStyles = makeStyles(() => ({
         paddingTop: "15px",
         paddingBottom: "15px"
     },
+    paper: {
+        backgroundColor:'#ffffffCC'
+    },
     imageGridContainer: {
         height:"350px"
     },

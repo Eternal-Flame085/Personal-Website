@@ -8,7 +8,7 @@ import Carousel from 'react-material-ui-carousel';
 export default function ProjectTemplate(props) {
     return (
         <Grid item xs={12}>
-            <Paper variant="outlined">
+            <Paper variant="outlined" classname={props.classes.paper}>
                 <Grid container alignItems="center">
                     <Grid item xs={6}>
                         <Carousel animation="slide">
