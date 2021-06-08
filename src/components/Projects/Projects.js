@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Container, Grid } from '@material-ui/core'
-import projects from "./ProjectData.json"
+import { Container, Grid } from '@material-ui/core';
+import projects from "./ProjectData.json";
 import ProjectTemplate from "./ProjectTemplate";
 
 const useStyles = makeStyles((theme) => ({
