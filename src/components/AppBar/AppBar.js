@@ -62,7 +62,7 @@ function DesktopMenu(props) {
             <ClickAwayListener onClickAway={handleClickAway}>
             <Paper>
               <MenuList id="menu-list-grow">
-                <a target='_blank' href="https://www.linkedin.com/in/roberto-basulto/">
+                <Link color="textPrimary" target='_blank' href="https://www.linkedin.com/in/roberto-basulto/">
                   <MenuItem>
                     <ListItemIcon style={{marginRight:-30}}>
                       <LinkedInIcon />
@@ -72,9 +72,9 @@ function DesktopMenu(props) {
                       LinkedIn
                     </Typography>
                   </MenuItem>
-                </a>
+                </Link>
 
-                <a target='_blank' href="https://github.com/Eternal-Flame085">
+                <Link color="textPrimary" target='_blank' href="https://github.com/Eternal-Flame085" rel="noreferrer">
                   <MenuItem>
                     <ListItemIcon style={{marginRight:-30}}>
                       <GitHubIcon />
@@ -84,9 +84,9 @@ function DesktopMenu(props) {
                       GitHub
                     </Typography>
                   </MenuItem>
-                </a>
+                </Link>
 
-                <a target='_blank' href="mailto:roberto.basulto085@gmail.com">
+                <Link color="textPrimary" target='_blank' href="mailto:roberto.basulto085@gmail.com">
                   <MenuItem>
                     <ListItemIcon style={{marginRight:-30}}>
                       <EmailIcon />
@@ -96,7 +96,7 @@ function DesktopMenu(props) {
                       Email
                     </Typography>
                   </MenuItem>
-                </a>
+                </Link>
               </MenuList>
             </Paper>
             </ClickAwayListener>
