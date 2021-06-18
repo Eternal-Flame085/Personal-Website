@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from '@material-ui/core/container';
+import Container from '@material-ui/core';
 
 import ResumePDF from './Roberto_Basulto_Resume.pdf'
 
