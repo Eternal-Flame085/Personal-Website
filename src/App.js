@@ -11,7 +11,7 @@ import NavBar from './components/AppBar/AppBar';
 import LandingPage from './components/LandingPage/Home';
 import Projects from './components/Projects/Projects';
 import Experience from './components/Experience/Experience';
-import Resume from './components/Resume';
+import Resume from './components/Resume/Resume';
 
 const App = () => {
   return (
