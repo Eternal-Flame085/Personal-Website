@@ -1,16 +1,12 @@
-import React from 'react'
-import { Container, Embed } from 'semantic-ui-react'
+import React from 'react';
+import Container from '@material-ui/core/container';
 
 import ResumePDF from './Roberto_Basulto_Resume.pdf'
 
 const Resume = () => {
     return (
         <Container style={{ height: '90vh', width:'60%' }}>
-            <Embed
-                style={{ height: '95%' }}
-                defaultActive 
-                url={ResumePDF}
-            />
+            <iframe src={ResumePDF} width="100%" height="100%" allow="autoplay"></iframe>
         </Container>
     )
 }
