@@ -107,7 +107,7 @@ function DesktopMenu(props) {
       {props.menuLinks.map((menuLink) => {
         const { menuTitle, pageUrl } = menuLink;
         return (
-          <Button className={props.classes.navColor} variant='text' component={RouterLink} to={pageUrl}>
+          <Button className={props.classes.navColor} variant='text' size='large' component={RouterLink} to={pageUrl}>
             {menuTitle}
           </Button>
         )

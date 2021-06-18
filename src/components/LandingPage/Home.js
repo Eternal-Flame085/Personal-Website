@@ -56,7 +56,7 @@ export default function LandingPage() {
       "Ruby On Rails",
       "Python",
       "Flask",
-      "SQL | Active Record | SQLAlchemy",
+      "SQL | Active Record",
       "Javascript",
       "ReactJs",
       "GraphQL",
