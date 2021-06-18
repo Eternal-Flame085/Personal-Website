@@ -12,7 +12,8 @@ const useStyles = makeStyles(() => ({
         width:"100%",
         height:"100%",
         zIndex:-1,
-        background: `url(${BackgroundImage})`
+        background: `url(${BackgroundImage})`,
+        backgroundSize: "cover"
     }
   }))
 
