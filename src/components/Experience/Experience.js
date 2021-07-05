@@ -9,9 +9,7 @@ const useStyles = makeStyles(() => ({
     image: {
         objectFit: "contain",
         width:"100%",
-        height:"100%",
-        paddingTop: "15px",
-        paddingBottom: "15px"
+        height:"100%"
     },
     paper: {
         backgroundColor:'#ffffffCC'
