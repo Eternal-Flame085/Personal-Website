@@ -43,9 +43,9 @@ const Experience = () => {
         <Container>
             <Grid container direction="column" spacing="2">
                 {
-                    experienceData.map((experience) => {
+                    experienceData.map((experience, index) => {
                         return (
-                            <ExperienceTemplate classes={classes} experience={experience} />
+                            <ExperienceTemplate classes={classes} experience={experience} experienceNum={index} />
                         )
                     })
                 }
