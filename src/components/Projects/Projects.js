@@ -33,9 +33,9 @@ const Projects = () => {
   return (
       <Container>
         <Grid container direction="column" spacing="2">
-          {projects.map((project) => {
+          {projects.map((project, index) => {
             return (
-              <ProjectTemplate classes={classes} project={project}/>
+              <ProjectTemplate classes={classes} project={project} projectNum={index}/>
             );
           })}
         </Grid>
