@@ -7,7 +7,6 @@ import {
         Divider,
         Chip,
         Grid } from '@material-ui/core'
-import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 
 const useStyles = makeStyles((theme) => ({
     root: {
