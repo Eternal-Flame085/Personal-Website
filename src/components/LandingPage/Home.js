@@ -5,8 +5,8 @@ import {
         Paper,
         Typography,
         Divider,
+        Chip,
         Grid } from '@material-ui/core'
-import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -29,6 +29,11 @@ const useStyles = makeStyles((theme) => ({
         verticalAlign: 'middle',
         display: 'inline-flex',
         marginLeft: '10px'
+    },
+    chips: {
+        marginTop: '5px',
+        marginBottom: '5px',
+        marginLeft: '5px'
     }
   }))
 
@@ -38,12 +43,7 @@ function RecentTechnologies(props) {
         <Grid container>
             {props.techList.map((tech) => {
                 return (
-                    <Grid item xs={4}>
-                        <Typography className={classes.wrapIcon}>
-                            <ArrowRightIcon/>
-                            {tech}
-                        </Typography>
-                    </Grid>
+                    <Chip className={classes.chips} size="medium" variant="outlined" label={tech} />
                 )
             })}
         </Grid>
@@ -54,15 +54,15 @@ export default function LandingPage() {
   const classes = useStyles();
   const technologies = [
       "Ruby On Rails",
+      "Rspec",
+      "Git",
       "Python",
+      "SQL | Active Record | SQL Alchemy",
       "Flask",
-      "SQL | Active Record",
       "Javascript",
       "ReactJs",
       "GraphQL",
       "PostgreSQL",
-      "Rspec",
-      "Git",
       "TravisCI",
   ]
     return (
