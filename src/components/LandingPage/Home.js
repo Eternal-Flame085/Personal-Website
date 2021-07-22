@@ -4,7 +4,6 @@ import {
         Container, 
         Paper,
         Typography,
-        Divider,
         Chip,
         Grid } from '@material-ui/core'
 
@@ -18,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor:'#ffffffCC'
     },
     image: {
-        marginTop: '-35%',
+        marginTop: '-45%',
         borderRadius: '100%',
     },
     wrapIcon: {
@@ -36,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
 function RecentTechnologies(props) {
     const classes = useStyles();
     return (
-        <Grid item xs={12}>
+        <Grid item xs={12} style={{paddingBottom:"20px"}}>
             {props.techList.map((tech) => {
                 return (
                     <Chip className={classes.chips} size="medium" variant="outlined" label={tech} />
@@ -91,7 +90,7 @@ export default function LandingPage() {
                             I am very eager to continue my career as an important contributor to an organization.
                         </Typography>
 
-                        <Typography gutterBottom variant="headline" component="h3">
+                        <Typography paragraph variant="headline" component="h3">
                             Recent Technologies / Tools I have worked with:
                         </Typography>
 
