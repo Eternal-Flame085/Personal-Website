@@ -11,6 +11,7 @@ import LandingPage from './components/LandingPage/Home';
 import Projects from './components/Projects/Projects';
 import Experience from './components/Experience/Experience';
 import Resume from './components/Resume/Resume';
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
           </Route>
         </Switch>
 
+        <Footer />
       </Router>
   );
 }
