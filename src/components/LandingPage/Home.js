@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
 function RecentTechnologies(props) {
     const classes = useStyles();
     return (
-        <Grid item xs={12} style={{paddingBottom:"20px"}}>
+        <Grid item xs={12} style={{paddingBottom:"15px"}}>
             {props.techList.map((tech) => {
                 return (
                     <Chip className={classes.chips} size="medium" variant="outlined" label={tech} />
@@ -68,7 +68,7 @@ export default function LandingPage() {
                         <img className={classes.image} src="https://avatars.githubusercontent.com/u/63683549?s=400&u=2a570652ac4f72944a49c64842702154c7466b5c&v=4" />
                     </Grid>
 
-                    <Grid item xs={7}>
+                    <Grid item xs={8}>
                         <Typography gutterBottom variant="headline" component="h2" style={{marginTop:"15px"}}>
                             About Me
                         </Typography>

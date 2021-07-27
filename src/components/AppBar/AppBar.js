@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link as RouterLink } from 'react-router-dom'
 import { makeStyles } from '@material-ui/core/styles'
+import Container from '@material-ui/core/Container'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Link from '@material-ui/core/Link';
@@ -129,15 +130,17 @@ const NavBar = () => {
   ]
 
   return (
-    <AppBar position="static" color="transparent" className={classes.root}>
-      <Toolbar>
-        <Link className={classes.logoLink} component={RouterLink} to="/">
-          <img src={logo} alt="logo" className={classes.logo} />
-        </Link>
+    <Container>
+      <AppBar position="static" color="transparent" className={classes.root}>
+        <Toolbar>
+          <Link className={classes.logoLink} component={RouterLink} to="/">
+            <img src={logo} alt="logo" className={classes.logo} />
+          </Link>
 
-        <DesktopMenu classes={classes} menuLinks={menulinks}/>
-      </Toolbar>
-    </AppBar>
+          <DesktopMenu classes={classes} menuLinks={menulinks}/>
+        </Toolbar>
+      </AppBar>
+    </Container>
   )
 }
 
