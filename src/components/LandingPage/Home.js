@@ -75,7 +75,7 @@ export default function LandingPage() {
                     </Grid>
 
                     <Grid item xs={12}>
-                        <Toolbar style={{justifyContent: 'center', justifySpacing: 'middle'}}>
+                        <Toolbar>
                             <Button
                                 variant="text"
                                 size="medium"
