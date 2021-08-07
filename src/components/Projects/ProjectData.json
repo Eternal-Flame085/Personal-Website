@@ -42,5 +42,26 @@
       "https://lh3.googleusercontent.com/dp8zaIpvmegLv2TeNBdsx5Gwetg9235VgZys2XKYT9qrlw9ILkYsRkDWSpPzKqy2XRkUcpypUSoMxPErKv9Ik2F1Hl1mR1fMNmNL4ub6kNsFjGw0BwHW46dMtIOSHzndHqlfg_06gg=w2400",
       "https://lh3.googleusercontent.com/zEOJqXTMoHgEAJydOGAgZBbT3sx1aBecN1ZYeePzpIAwdFrXREABlPqNz-Ie_c7WpjGaULK3cMo9qFAP7fBiG4783Lq0UjZV4_Rp9fNFmcbXBGxrAmjsH3aYeaQaZT8WJl-vfhRwKg=w2400"
     ]
+  },
+  {
+    "name": "BlackJack",
+    "webLink": "https://black-jack-card-game.herokuapp.com/",
+    "gitHub": "https://github.com/kevxo/blackjackv2",
+    "description":
+      "Welcome to BlackJack, here you will be able to play a game of blackjack with the dealer for now. In the future we are trying to implement the ability to play with friends.The main focus for the team was to get our MVP working. We also have big plans as well, once we finish implementing everything we need for BlackJack, we will also add other casino games such as Poker. Our team thank's you for playing a game of blackjack and hope you enjoy your time.",
+    "techUsed": [
+      "Ruby On Rails",
+      "PostgreSQL",
+      "Bootstrap",
+      "Travis CI",
+      "Heroku"
+    ],
+    "images": [
+      "https://lh3.googleusercontent.com/Gh9-LWaH1u6xpuYtjn8LH22dRmBgtTfUqjmIXYO7XBrKwum7z2xUB54rThcMYxhIev-fla4dehnKrs2kORhUDsu1YlE18Nf-XiWn3Q00txQ0e36j2IxwX1xk4qez9Qzn0fzabFzrqw=w2400",
+      "https://lh3.googleusercontent.com/ZpHv1cFykwbPilg9yU0uf0L3hwuKZM38W8cyXaN4KlNvjLSgSO3ZDh98qobaLxsR0IJC3dJIYj-kXAFZo6e_tfZfCpJbSOnaYXBiOvheBZBkfDtrE2R4J8NjmxYFYR8du15t3pxlGg=w2400",
+      "https://lh3.googleusercontent.com/gWt9NNXTG1vmAA4kTtjbgd2morGx4vJAa4ViVh6UIyYNo5Qc5k6XncCqVi_yTVsLm-N-HKP7o6j_JFsG3jl1Rzs5iZNOEhfj8izvr8LJ3F4QY57DSRtbExygyg5bAlEgbSq7oBY6Cw=w2400",
+      "https://lh3.googleusercontent.com/Tr-aBVu93-BpZ7V9pBx_SU6fx2ZTnPR21w_GaeWL8VTI9WxMjtHxiCPn2pnjeTw0lFUr4J8U_dFALnSa5SrqGl19cxGjoGjCVeUnlyaY2XgNaQR0xuR2lFyIVT11igPITVBddh_bUA=w2400",
+      "https://lh3.googleusercontent.com/h8dC8lCjGvEqFKW7OO9iVG7DSjJTaeMS7glQ6C6ekmJzYHaDHdRqaGYzkVfVepsJKlBUfRThRK41j-4KwRaZn0vdLaY3_f7CCYxFm3cJbeCXa2XM-9e6bXqpQf39uxR4zGdcvZYTTA=w2400"
+    ]
   }
 ]
