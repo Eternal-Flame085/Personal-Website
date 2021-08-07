@@ -36,8 +36,6 @@ const App = () => {
             <LandingPage />
           </Route>
         </Switch>
-
-        <Footer />
       </Router>
   );
 }
