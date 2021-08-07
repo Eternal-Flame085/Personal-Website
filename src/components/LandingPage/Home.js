@@ -6,6 +6,11 @@ import {
         Typography,
         Chip,
         Grid } from '@material-ui/core'
+import Toolbar from '@material-ui/core/Toolbar'
+import Button from '@material-ui/core/Button'
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import EmailIcon from '@material-ui/icons/Email';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -14,7 +19,8 @@ const useStyles = makeStyles((theme) => ({
         marginTop: "10%"
     },
     paper: {
-        backgroundColor:'#ffffffCC'
+        backgroundColor:'#ffffffCC',
+        marginBottom:"40px"
     },
     image: {
         marginTop: '-45%',
@@ -66,6 +72,43 @@ export default function LandingPage() {
                 <Grid container spacing={0} direction="column" alignItems="center" justify="center">
                     <Grid item xs={12}>
                         <img className={classes.image} src="https://avatars.githubusercontent.com/u/63683549?s=400&u=2a570652ac4f72944a49c64842702154c7466b5c&v=4" />
+                    </Grid>
+
+                    <Grid item xs={12}>
+                        <Toolbar style={{justifyContent: 'center', justifySpacing: 'middle'}}>
+                            <Button
+                                variant="text"
+                                size="medium"
+                                color="default"
+                                startIcon={<LinkedInIcon />}
+                                href="https://www.linkedin.com/in/roberto-basulto/"
+                                target="_blank"
+                            >
+                                LinkedIn
+                            </Button>
+
+                            <Button
+                                variant="text"
+                                size="medium"
+                                color="default"
+                                startIcon={<GitHubIcon />}
+                                href="https://github.com/Eternal-Flame085"
+                                target="_blank"
+                            >
+                                GitHub
+                            </Button>
+
+                            <Button
+                                variant="text"
+                                size="medium"
+                                color="default"
+                                startIcon={<EmailIcon />}
+                                href="mailto:roberto.basulto085@gmail.com"
+                                target="_blank"
+                            >
+                                Email
+                            </Button>
+                        </Toolbar>
                     </Grid>
 
                     <Grid item xs={8}>
