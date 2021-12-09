@@ -1,0 +1,17 @@
+[
+    {
+        "name": "LinkedIn",
+        "icon": "LINKEDINICON",
+        "link": "https://www.linkedin.com/in/roberto-basulto/"
+    },
+    {
+        "name": "Github",
+        "icon": "GITHUBICON",
+        "link": "https://github.com/Eternal-Flame085"
+    },
+    {
+        "name": "Email",
+        "icon": "EMAILICON",
+        "link": "mailto:roberto.basulto085@gmail.com"
+    }
+]
